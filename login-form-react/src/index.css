@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e293b;
+}
+
+.login-forms{
+    border: 1px solid black;
+    width: 30rem;
+    height: 22rem;
+    padding: 35px;
+    
+    border-radius: 18px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#first-name{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #d1d5db;
+    border: none;
+}
+
+#first-name:focus{
+    outline: none;
+}
+
+#last-name{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #d1d5db;
+    border: none;
+}
+#last-name:focus{
+    outline: none;
+}
+
+
+#email{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #d1d5db;
+    border: none;
+}
+#email:focus{
+    outline: none;
+}
+
+#password{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #d1d5db;
+    border: none;
+}
+#password:focus{
+    outline: none;
+}
+
+.btn{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    color: #f4f4f5;
+    background-color: #22c55e;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.thank-yous{
+    border: 1px solid black;
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#check{
+    width: 100px;
+    margin-bottom: 25px;
+    padding-top: 45px;
+}
+
+.thank-yous h2{
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-bottom: 25px;
+}
+
+.thank-yous p{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    
+}
+
+.thank-yous button{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 5px;
+    color: #f4f4f5;
+    background-color: #22c55e;
+    border: none;
+    cursor: pointer;
+}
